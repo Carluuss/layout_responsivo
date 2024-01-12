@@ -200,30 +200,40 @@ aside img {
 
 }
 
+@media (orientation: landscape){
+    
+ 
+
+    .produtos {
+    display: flex;
+    
+    }
+
+    .camisas {
+        display: row;
+    }
+
+}
+
 @media (max-width: 640px) {
 
-    header {
-        display: flex;
-        flex-direction: column;
-    }
+   
 
-    header .container {
-        padding-bottom: 10px;
-    }
+   body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
 
+   header {
+    display: flex;
+   
+   }
+   header ul {
+    display:row;
+   font-size: 9px;
+   }
 
-    header nav ul {
-        display: flex;
-    }
-
-    header button {
-        margin: 5px;
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
-    }
 
     .conteudo {
         background-color: #fff;
